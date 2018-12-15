@@ -1,0 +1,16 @@
+{
+  "name": "lilypond-template",
+  "version": "0.0.1",
+  "description": "npm is just a task-runner.",
+  "license": "MIT",
+  "scripts": {
+    "score": "lilypond scoreFullScore.ly",
+    "parts": "lilypond scoreParts*.ly",
+    "chk": "lilypond chk/chkScorePart.ly",
+    "postparts": "mv scoreParts*.pdf pdf/",
+    "postchk": "mv chkScorePart.pdf chk/",
+    "postchkPfHp": "mv chkScorePfHp.pdf chk/",
+    "postchkPerc": "mv chkScorePerc.pdf chk/"
+  },
+  "author": "ef81sp"
+}
